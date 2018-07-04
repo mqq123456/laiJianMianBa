@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SelectedViewController" customModule="laiJianMianBa" customModuleProvider="target">
+            <connections>
+                <outlet property="desc" destination="33G-Td-7PX" id="yy4-Bp-LtJ"/>
+                <outlet property="head" destination="3Vh-2B-7Pm" id="Mvp-7n-JaV"/>
+                <outlet property="name" destination="c37-iF-Nnx" id="hYw-bG-0hc"/>
+                <outlet property="occ" destination="Nox-St-vzH" id="84Y-O0-hux"/>
+                <outlet property="sex" destination="EuH-J4-hsH" id="A8R-lW-wSN"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3Vh-2B-7Pm">
+                    <rect key="frame" x="117.5" y="94" width="140" height="140"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="140" id="Cxj-kf-Jwc"/>
+                        <constraint firstAttribute="width" constant="140" id="Sca-9x-tQN"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="黎明航" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c37-iF-Nnx">
+                    <rect key="frame" x="160" y="254" width="55.5" height="21"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                    <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="程序员" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nox-St-vzH">
+                    <rect key="frame" x="164.5" y="278" width="46" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="♀" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EuH-J4-hsH">
+                    <rect key="frame" x="216" y="244" width="23" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="1" green="0.43137254899999999" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="已提交申请" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kRi-Xf-nQP">
+                    <rect key="frame" x="144" y="346" width="87" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="对方正在行使男生权利，请耐心等候" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="33G-Td-7PX">
+                    <rect key="frame" x="73.5" y="382" width="228.5" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="kRi-Xf-nQP" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="0xq-Ya-9lL"/>
+                <constraint firstItem="EuH-J4-hsH" firstAttribute="centerY" secondItem="c37-iF-Nnx" secondAttribute="centerY" constant="-10" id="13d-rT-mPV"/>
+                <constraint firstItem="33G-Td-7PX" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="4yW-rG-nEE"/>
+                <constraint firstItem="c37-iF-Nnx" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="6cF-3g-Zhv"/>
+                <constraint firstItem="3Vh-2B-7Pm" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="94" id="BVE-if-gBf"/>
+                <constraint firstItem="Nox-St-vzH" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="CsU-kO-G71"/>
+                <constraint firstItem="Nox-St-vzH" firstAttribute="top" secondItem="c37-iF-Nnx" secondAttribute="bottom" constant="3" id="V2s-24-C2j"/>
+                <constraint firstItem="c37-iF-Nnx" firstAttribute="top" secondItem="3Vh-2B-7Pm" secondAttribute="bottom" constant="20" id="YfY-1q-FIa"/>
+                <constraint firstItem="3Vh-2B-7Pm" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="ffy-Is-lIc"/>
+                <constraint firstItem="EuH-J4-hsH" firstAttribute="leading" secondItem="c37-iF-Nnx" secondAttribute="trailing" id="llU-sq-igj"/>
+                <constraint firstItem="33G-Td-7PX" firstAttribute="top" secondItem="kRi-Xf-nQP" secondAttribute="bottom" constant="15" id="oo0-Qk-LZq"/>
+                <constraint firstItem="kRi-Xf-nQP" firstAttribute="top" secondItem="Nox-St-vzH" secondAttribute="bottom" constant="50" id="ube-cj-VZE"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

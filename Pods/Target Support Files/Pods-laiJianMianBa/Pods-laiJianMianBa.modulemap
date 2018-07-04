@@ -1,0 +1,6 @@
+framework module Pods_laiJianMianBa {
+  umbrella header "Pods-laiJianMianBa-umbrella.h"
+
+  export *
+  module * { export * }
+}

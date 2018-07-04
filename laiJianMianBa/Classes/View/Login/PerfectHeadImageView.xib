@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PerfectHeadImageView" customModule="laiJianMianBa" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="PerfectHeadImageView" customModule="laiJianMianBa" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="300"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView tag="100" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="zhuce_tianjiatouxiang" translatesAutoresizingMaskIntoConstraints="NO" id="j67-fx-VD9">
+                    <rect key="frame" x="0.0" y="0.0" width="199.5" height="199.5"/>
+                </imageView>
+                <imageView tag="105" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="zhuce_tianjiatouxiang" translatesAutoresizingMaskIntoConstraints="NO" id="wDq-0W-77H">
+                    <rect key="frame" x="0.0" y="200.5" width="99.5" height="99.5"/>
+                </imageView>
+                <imageView tag="104" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="zhuce_tianjiatouxiang" translatesAutoresizingMaskIntoConstraints="NO" id="YD2-Iy-jxw">
+                    <rect key="frame" x="100.5" y="200.5" width="99" height="99.5"/>
+                </imageView>
+                <imageView tag="102" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="zhuce_tianjiatouxiang" translatesAutoresizingMaskIntoConstraints="NO" id="la6-XE-TpP">
+                    <rect key="frame" x="200.5" y="100.5" width="99.5" height="99"/>
+                </imageView>
+                <imageView tag="101" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="zhuce_tianjiatouxiang" translatesAutoresizingMaskIntoConstraints="NO" id="1Dy-fI-Kak">
+                    <rect key="frame" x="200.5" y="0.0" width="99.5" height="99.5"/>
+                </imageView>
+                <imageView tag="103" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="zhuce_tianjiatouxiang" translatesAutoresizingMaskIntoConstraints="NO" id="KaP-bz-MHn">
+                    <rect key="frame" x="200" y="200" width="99.5" height="99.5"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="YD2-Iy-jxw" firstAttribute="leading" secondItem="wDq-0W-77H" secondAttribute="trailing" constant="1" id="0Yj-HT-81v"/>
+                <constraint firstItem="la6-XE-TpP" firstAttribute="width" secondItem="1Dy-fI-Kak" secondAttribute="width" id="4J8-tc-XZz"/>
+                <constraint firstAttribute="bottom" secondItem="wDq-0W-77H" secondAttribute="bottom" id="6vd-Jm-lpV"/>
+                <constraint firstAttribute="trailing" secondItem="la6-XE-TpP" secondAttribute="trailing" id="7OO-UR-ZXC"/>
+                <constraint firstItem="YD2-Iy-jxw" firstAttribute="top" secondItem="j67-fx-VD9" secondAttribute="bottom" constant="1" id="8tY-WK-q3b"/>
+                <constraint firstItem="1Dy-fI-Kak" firstAttribute="leading" secondItem="j67-fx-VD9" secondAttribute="trailing" constant="1" id="AMo-If-DRN"/>
+                <constraint firstItem="KaP-bz-MHn" firstAttribute="height" secondItem="wDq-0W-77H" secondAttribute="height" id="Ccl-DP-UXn"/>
+                <constraint firstAttribute="bottom" secondItem="YD2-Iy-jxw" secondAttribute="bottom" id="G4W-46-YCe"/>
+                <constraint firstItem="YD2-Iy-jxw" firstAttribute="height" secondItem="wDq-0W-77H" secondAttribute="height" id="NPO-b6-evI"/>
+                <constraint firstItem="KaP-bz-MHn" firstAttribute="top" secondItem="la6-XE-TpP" secondAttribute="bottom" constant="1" id="NuA-Cn-hOg"/>
+                <constraint firstItem="KaP-bz-MHn" firstAttribute="width" secondItem="1Dy-fI-Kak" secondAttribute="width" id="QVt-U8-6wi"/>
+                <constraint firstItem="KaP-bz-MHn" firstAttribute="height" secondItem="1Dy-fI-Kak" secondAttribute="height" id="Si3-Pw-nOW"/>
+                <constraint firstItem="j67-fx-VD9" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="TYr-kV-s4o"/>
+                <constraint firstItem="1Dy-fI-Kak" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="WqU-rx-pjQ"/>
+                <constraint firstItem="KaP-bz-MHn" firstAttribute="leading" secondItem="YD2-Iy-jxw" secondAttribute="trailing" constant="1" id="YCu-Yn-6yo"/>
+                <constraint firstItem="la6-XE-TpP" firstAttribute="top" secondItem="1Dy-fI-Kak" secondAttribute="bottom" constant="1" id="Ytx-SU-nwN"/>
+                <constraint firstItem="la6-XE-TpP" firstAttribute="height" secondItem="1Dy-fI-Kak" secondAttribute="height" id="ajS-FW-DGI"/>
+                <constraint firstItem="KaP-bz-MHn" firstAttribute="top" secondItem="la6-XE-TpP" secondAttribute="bottom" constant="1" id="b4I-PB-x0p"/>
+                <constraint firstAttribute="trailing" secondItem="1Dy-fI-Kak" secondAttribute="trailing" id="euQ-O5-j1S"/>
+                <constraint firstItem="j67-fx-VD9" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="fDc-T4-siQ"/>
+                <constraint firstItem="YD2-Iy-jxw" firstAttribute="top" secondItem="j67-fx-VD9" secondAttribute="bottom" constant="1" id="i93-1f-4GK"/>
+                <constraint firstItem="YD2-Iy-jxw" firstAttribute="width" secondItem="wDq-0W-77H" secondAttribute="width" id="iLp-KN-YO2"/>
+                <constraint firstItem="KaP-bz-MHn" firstAttribute="width" secondItem="wDq-0W-77H" secondAttribute="width" id="iZr-gD-ZEW"/>
+                <constraint firstItem="wDq-0W-77H" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="k2Z-BQ-iGh"/>
+                <constraint firstItem="la6-XE-TpP" firstAttribute="top" secondItem="1Dy-fI-Kak" secondAttribute="bottom" constant="1" id="n6n-jg-QIx"/>
+                <constraint firstAttribute="bottom" secondItem="KaP-bz-MHn" secondAttribute="bottom" id="xgL-a5-zjf"/>
+                <constraint firstAttribute="trailing" secondItem="KaP-bz-MHn" secondAttribute="trailing" id="ymA-tS-qYO"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="bigImg" destination="j67-fx-VD9" id="Upl-FX-Dqh"/>
+                <outlet property="img1" destination="1Dy-fI-Kak" id="bMy-h5-hw5"/>
+                <outlet property="img2" destination="la6-XE-TpP" id="oxF-Mk-HW6"/>
+                <outlet property="img3" destination="KaP-bz-MHn" id="bIa-AY-phD"/>
+                <outlet property="img4" destination="YD2-Iy-jxw" id="Ddo-xS-9lG"/>
+                <outlet property="img5" destination="wDq-0W-77H" id="AGv-sN-uUW"/>
+            </connections>
+            <point key="canvasLocation" x="58" y="-69"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="zhuce_tianjiatouxiang" width="827" height="827"/>
+    </resources>
+</document>

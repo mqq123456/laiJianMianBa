@@ -1,0 +1,24 @@
+PODS:
+  - AliyunOSSiOS (2.6.0)
+  - IQKeyboardManagerSwift (4.0.8)
+  - Kingfisher (3.2.4)
+  - MJRefresh (3.1.12)
+  - SVProgressHUD (2.1.2)
+
+DEPENDENCIES:
+  - AliyunOSSiOS (~> 2.6.0)
+  - IQKeyboardManagerSwift (~> 4.0.8)
+  - Kingfisher (~> 3.2.4)
+  - MJRefresh (~> 3.1.12)
+  - SVProgressHUD (~> 2.1.2)
+
+SPEC CHECKSUMS:
+  AliyunOSSiOS: 058b038cc82000dadb8f8e3893a97243124f2898
+  IQKeyboardManagerSwift: c04bc9f68473823f825eb44d958fce98d921bead
+  Kingfisher: 8d80f39da403cd9c9ee11984e1655f4d6a566cdb
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+
+PODFILE CHECKSUM: c75e3cc03c09e348e21c207056f5a7bfb4075b0e
+
+COCOAPODS: 1.2.0.rc.1

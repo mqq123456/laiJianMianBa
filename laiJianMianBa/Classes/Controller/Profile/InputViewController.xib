@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="InputViewController" customModule="laiJianMianBa" customModuleProvider="target">
+            <connections>
+                <outlet property="textView" destination="tJS-l2-v4t" id="7Uz-IQ-kWv"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="tJS-l2-v4t" customClass="InputTextView" customModule="laiJianMianBa" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="5" width="375" height="662"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences" returnKeyType="done"/>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="tJS-l2-v4t" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="5" id="ARZ-uD-BK7"/>
+                <constraint firstItem="tJS-l2-v4t" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="ceF-1P-wc2"/>
+                <constraint firstAttribute="bottom" secondItem="tJS-l2-v4t" secondAttribute="bottom" id="fcj-5h-cx3"/>
+                <constraint firstAttribute="trailing" secondItem="tJS-l2-v4t" secondAttribute="trailing" id="iC4-fF-AXw"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

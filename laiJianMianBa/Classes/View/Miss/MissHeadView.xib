@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MissHeadView" customModule="laiJianMianBa" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MissHeadView" customModule="laiJianMianBa" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="311" height="268"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cuoguojianmian_icon" translatesAutoresizingMaskIntoConstraints="NO" id="ZAm-sG-IR1">
+                    <rect key="frame" x="120" y="84" width="71" height="71"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="71" id="1bY-e5-hC8"/>
+                        <constraint firstAttribute="width" constant="71" id="HXu-gE-urb"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uou-Sd-uY5">
+                    <rect key="frame" x="137" y="165" width="37.5" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bVb-4k-fdb">
+                    <rect key="frame" x="35.5" y="198" width="240" height="50"/>
+                    <color key="backgroundColor" red="0.015686274509803921" green="0.74509803921568629" blue="0.76078431372549016" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="7yC-nX-PUR"/>
+                        <constraint firstAttribute="width" constant="240" id="JMa-Kp-h1y"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                    <state key="normal" title="再次发起">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="ZAm-sG-IR1" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="5YY-2z-iLa"/>
+                <constraint firstItem="Uou-Sd-uY5" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="83E-M7-o2N"/>
+                <constraint firstItem="bVb-4k-fdb" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="YCR-cl-vQs"/>
+                <constraint firstItem="Uou-Sd-uY5" firstAttribute="top" secondItem="ZAm-sG-IR1" secondAttribute="bottom" constant="10" id="hPD-ca-StJ"/>
+                <constraint firstItem="bVb-4k-fdb" firstAttribute="top" secondItem="Uou-Sd-uY5" secondAttribute="bottom" constant="15" id="j4M-d5-CnH"/>
+                <constraint firstAttribute="bottom" secondItem="bVb-4k-fdb" secondAttribute="bottom" constant="20" id="kHV-hv-X5o"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="sendBtn" destination="bVb-4k-fdb" id="TNj-gu-cMy"/>
+                <outlet property="tips" destination="Uou-Sd-uY5" id="4bk-nK-gP3"/>
+            </connections>
+            <point key="canvasLocation" x="209.5" y="-83"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="cuoguojianmian_icon" width="213" height="213"/>
+    </resources>
+</document>

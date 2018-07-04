@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="NonHeaderView" customModule="laiJianMianBa" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="260" height="336"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fabuzhong" translatesAutoresizingMaskIntoConstraints="NO" id="q2G-ek-68F">
+                    <rect key="frame" x="55" y="68" width="150" height="180"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="150" id="fAs-04-I6y"/>
+                        <constraint firstAttribute="height" constant="180" id="udk-M0-KiE"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="每次错过是为了更好的相遇" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L4Z-Tt-UZw">
+                    <rect key="frame" x="39" y="278" width="184" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wuhuiying_fengexian_xuxian" translatesAutoresizingMaskIntoConstraints="NO" id="Fgw-4L-s86">
+                    <rect key="frame" x="0.0" y="335" width="260" height="1"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="anC-sW-11R"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="L4Z-Tt-UZw" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Mc3-R9-rQ9"/>
+                <constraint firstItem="Fgw-4L-s86" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Qgb-y9-CM6"/>
+                <constraint firstItem="q2G-ek-68F" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="SDP-UQ-RCv"/>
+                <constraint firstAttribute="bottom" secondItem="L4Z-Tt-UZw" secondAttribute="bottom" constant="40" id="dao-Xi-07E"/>
+                <constraint firstAttribute="bottom" secondItem="Fgw-4L-s86" secondAttribute="bottom" id="eFT-pi-s2l"/>
+                <constraint firstItem="L4Z-Tt-UZw" firstAttribute="top" secondItem="q2G-ek-68F" secondAttribute="bottom" constant="30" id="iSF-ZD-0lM"/>
+                <constraint firstAttribute="trailing" secondItem="Fgw-4L-s86" secondAttribute="trailing" id="xqv-xh-1AW"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="9" y="-185"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="fabuzhong" width="449" height="537"/>
+        <image name="wuhuiying_fengexian_xuxian" width="1242" height="1"/>
+    </resources>
+</document>
